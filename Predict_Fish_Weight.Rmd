@@ -80,6 +80,7 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 
 The best two predictors for a perch would be height and width. 
 
+
 ```{r}
 which.max(summary.out$adjr2)
 summary.out$which[2,]
@@ -142,7 +143,7 @@ summary(best.model)
 ```{r}
 anova(best.model,Pikewtall)
 ```
-
+ 
 ### Best Models
 The best models is all variables.
 
@@ -199,5 +200,7 @@ The best models is all variables.
 ### Best Two regressor model
 The best two regressor models are length 3 and width. 
 
+
 ## Final Summary Statements
+with the data gathered, we conclude that the best regressor models for Perch were height and width. The best regressor models for Pike were length 1 and length 3. The best regressor model for Roach were length 3 and width. 
 
