@@ -136,7 +136,7 @@ summary.out$which[3,]
 ```
 
 ```{r}
-best.model <- lm(Weight~Height+Width,data=Pike)
+best.model <- lm(Weight~Length1+Length3,data=Pike)
 summary(best.model)
 ```
 
@@ -186,7 +186,7 @@ summary.out$which[3,]
 ```
 
 ```{r}
-best.model <- lm(Weight~Height+Width,data=Roach)
+best.model <- lm(Weight~Length3+Width ,data=Roach)
 summary(best.model)
 ```
 
