@@ -1,6 +1,6 @@
 ---
 title: "Weight of Fish"
-author: "Angelica Romero"
+author: "Miguel Avila"
 date: "Fall 2024"  
 output: 
   html_document:
@@ -202,5 +202,5 @@ The best two regressor models are length 3 and width.
 
 
 ## Final Summary Statements
-with the data gathered, we conclude that the best regressor models for Perch were height and width. The best regressor models for Pike were length 1 and length 3. The best regressor model for Roach were length 3 and width. 
+With the data that was gathered, we are able to conclude that the best regressor models for Perch were height and width. Best regressor models for Pike were length 1 and length 3. Best regressor model for Roach were length 3 and width. 
 
